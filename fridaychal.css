@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+}
+.tg-header{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(img/wtc.jpg);
+    width: 100%;
+    height: 70rem;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+}
+ul{
+    margin: 0;
+}
+.tg-header__nav{
+ position: fixed;
+ top: 0;
+ left: 0;
+}
+.tg-header__nav__navbar{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    display: flex;
+    overflow: hidden;
+}
+/* .tg-header__nav-logo{
+    color: red;
+} */
+
+.tg-header__nav__navbar__nav-item{
+    margin: 0 1rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.tg-header__nav__navbar__nav-item--link{
+    margin: 0 1rem;
+    width: 16.5rem;
+    height: 3rem;
+    transform: translateY(4rem);
+    color: red;
+}
+
+.tg-header__nav__navbar:hover .tg-header__nav__navbar__nav-item--link{
+    width: 16.5rem;
+    height: 3rem;
+    margin: 0 1rem;
+    transform: translateY(0);
+    transition: 0.5s;
+} 
+
+.tg-main__card-title{
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
+}
+
+.tg-main__card-wrapper{
+    background-image: url(img/red11.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.tg-main__card-container{
+    display: flex;
+    justify-content: center;
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+.tg-main__card{
+    background-image: url(img/badrwin.jpg);
+    width: 10rem;
+    height: 15rem;
+    margin: 5rem;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.tg-main__card1{
+    background-image: url(img/p-badr.png);
+    background-size: cover;
+    transition: all 5s ease-in-out;
+    
+}
+.tg-main__card1:hover{
+    animation-name: image1;
+    animation-duration: 2s;
+    transform: rotatey(180deg);
+}
+@keyframes image1{
+    50%{
+        background-image: url(img/p-badr.png);
+    }
+    100%{
+        background-image: url(img/rico2.jpeg);
+    }
+}
+.tg-main__card2{
+    background-image: url(img/ANP-48847575-756x422.jpg);
+    background-size: cover;
+    transition: all 5s ease-in-out;
+}
+.tg-main__card2:hover{
+    animation-name: image2;
+    animation-duration: 2s;
+    transform: rotateY(180deg);
+
+}
+@keyframes image2{
+    50%{
+        background-image: url(img/ANP-48847575-756x422.jpg);
+    }
+    100%{
+        background-image: url(img/ricokn.jpg);
+    }
+}
+.tg-main__image-wrapper{
+    background-image: url(img/rico.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    background-repeat: no-repeat;
+}
+.tg-main__image-container{
+    display: flex;
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+.tg-main__video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+}
+
+.tg-footer__image-wrapper{
+    background-image: url(img/faceoff.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    background-repeat: no-repeat;
+}
+.tg-footer__image-container{
+    display: flex;
+    height: 32rem;
+    padding: 4rem;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+.footer__image1{
+    background-image: url(img/badr.jpg);
+    width: 400%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.footer__image2{
+    background-image: url(img/fakerico.gif);
+    width: 200%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.footer__image3{
+    background-image: url(img/badrandrico.jpeg);
+    width: 400%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.footer__image1:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.footer__image2:hover{
+    transform: scale(2);
+    transition-duration: 2s;
+}
+.footer__image3:hover{
+    transform: rotate(1500deg);
+    transition-duration: 2s;
+}
